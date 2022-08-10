@@ -1,0 +1,51 @@
+.browse {
+    &__title {
+        @include browse("Outfit", 400, 63px, 64px, #2f2f2f);
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    &__box-img {
+        margin-top: 73px;
+    }
+
+    &__box-frame {
+        width: 358px;
+        height: 92px;
+        background: #FFFFFF;
+        border-radius: 0px 0px 30px 30px;
+        margin-top: 29px;
+    }
+
+    &__box-title {
+        @include browse("Outfit", 700, 26px, 26px, #2f2f2f);
+        letter-spacing: 0.48px;
+        margin-left: 50px;
+    }
+
+    &__boxes {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__box {
+        margin-left: 63px;
+    }
+
+    &__btn {
+        @include browse("Outfit", 700, 14px, 17px, #ffffff);
+        width: 134px;
+        height: 44px;
+        background: #2F2F2F;
+        border-radius: 0px;
+        cursor: pointer;
+        transition: 0.4s;
+        margin-left: 47%;
+        margin-top: 64px;
+    }
+
+    &__btn:hover {
+        background: #be2ed6;
+
+    }
+}

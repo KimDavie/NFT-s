@@ -1,0 +1,105 @@
+.work {
+    &__header-title {
+        @include work("Outfit", 400, 35px, 36px, #2f2f2f);
+        text-transform: uppercase;
+        letter-spacing: 0.48px;
+    }
+
+    &__header-suptitle {
+        @include work("Outfit", 400, 48px, 48px, #2f2f2f);
+        width: 486px;
+        margin-top: 7px;
+    }
+
+    &__header-description {
+        @include work("Outfit", 400, 18px, 26px, #2f2f2f);
+        letter-spacing: 0.48px;
+        width: 545px;
+        margin-top: 38px;
+    }
+
+    &__header-btn {
+        @include work("Outfit", 700, 15px, 16px, #ffffff);
+        letter-spacing: 0.48px;
+        width: 166px;
+        height: 44px;
+        background: #2F2F2F;
+        border-radius: 0px;
+        margin-top: 44px;
+        float: right;
+        cursor: pointer;
+        transition: 0.4s;
+
+    }
+
+    &__header-btn:hover {
+        background: #0492c2;
+    }
+
+    &__header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 146px;
+    }
+
+    &__header-txt {
+        margin-left: 63px;
+    }
+
+    &__footer-number {
+        @include work("Outfit", 400, 16px, 18px, #ffffff);
+        letter-spacing: 0.48px;
+    }
+    
+    &__footer-numbers {
+        width: 57px;
+        height: 35px;
+        background: #82CBAC;
+        border-radius: 30px;
+        text-align: center;
+        
+    }
+
+    &__footer-title {
+        @include work("Outfit", 700, 35px, 36px, #2f2f2f);
+        letter-spacing: 0.48px;
+        margin-top: 5px;
+    }
+
+    &__footer-description{
+        @include work ("Outfit", 400, 18px, 26px, #2f2f2f);
+        letter-spacing: 0.48px;
+        width: 431px;
+        margin-top: 13px;
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 84px;
+    }
+
+    &__footer-txt {
+        display: flex;
+        flex-direction: column;
+        margin-right: 153px;
+        margin-top: 75px;
+    }
+    &__footer-numbers-2 {
+        width: 57px;
+        height: 35px;
+        background: #FF7F96;
+        border-radius: 30px;
+        text-align: center;
+        margin-top: 32px;
+    }
+    &__footer-numbers-3 {
+        width: 57px;
+        height: 35px;
+        background: #EAD71B;
+        border-radius: 30px;
+        text-align: center;
+        margin-top: 38px;
+    }
+}

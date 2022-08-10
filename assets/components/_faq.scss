@@ -1,0 +1,21 @@
+.faq {
+    &__title {
+        @include faq("Outfit", 400, 64px, 64px, #2f2f2f);
+        margin-top: 55px;
+        margin-left: 22%;
+
+    }
+
+    &__description {
+        @include faq("Outfit", 400, 22px, 24px, #2f2f2f);
+        letter-spacing: 0.48px;
+        margin-left: 22%;
+        margin-top: 73px;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        
+    }
+}

@@ -1,0 +1,64 @@
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+
+    &__link {
+        @include header("Outfit", 400, 15px, 16px, #222222);
+        letter-spacing: 0.48px;
+        margin-left: 48px;
+        margin-top: 0;
+        transition: 0.5s;
+    }
+
+    &__link:hover {
+        color: #1520a6;
+    }
+
+    &__box {
+        width: 1240px;
+        height: 68px;
+        background: #FFFFFF;
+        box-shadow: 0px -4px 19px rgba(0, 0, 0, 0.03);
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    &__content {
+        width: 1200px;
+        height: 68px;
+    }
+
+    &__logo {
+        margin-left: 29px;
+        
+    }
+
+    &__box-right {
+        margin-left: 464px;
+        
+    }
+
+    &__box-img {
+        margin-left: 25px;
+    }
+
+    &__btn {
+        @include header("Outfit", 400, 13px, 14px, #ffffff);
+        text-align: center;
+        width: 144px;
+        height: 40px;
+        background: #2F2F2F;
+        border-radius: 20px;
+        margin-left: 54px;
+        cursor: pointer;
+        transition: .5s
+    }
+    
+    &__btn:hover {
+        background: #FF7F96;
+    }
+}

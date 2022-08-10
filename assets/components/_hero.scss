@@ -1,0 +1,109 @@
+.hero {
+    position: relative;
+    margin: 0 auto;
+
+    &__extraordinary {
+        @include hero("Outfit", 400, 13px, 14px, #82CBAC);
+    }
+
+    &__title {
+        @include hero("Outfit", 400, 64px, 64px, #2f2f2f);
+        margin-top: 1px;
+        transition: 0.6s;
+        cursor: pointer;
+    }
+
+    &__title:hover {
+        color: #82CBAC
+    }
+
+    &__description {
+        @include hero("Outfit", 400, 17px, 26px, #2f2f2f);
+        margin-top: 25px;
+    }
+
+    &__txt {
+        margin-left: 207px;
+        margin-top: 326px;
+    }
+
+    &__img-yellow {
+        position: absolute;
+        left: 60%;
+        top: 0px;
+        z-index: -1;
+    }
+   
+    &__img-pink {
+        position: absolute;
+        left: 51%;
+        top: -105px;
+        z-index: -2;
+        transition: .5s;
+    }
+
+    &__img-box {
+        width: 105px;
+        height: 33px;
+        background: rgba(255, 255, 255, 0.85);
+        box-shadow: 0px -4px 19px rgba(0, 0, 0, 0.03);
+        border-radius: 30px;
+        display: flex;
+        margin-left: 49%;
+        margin-top: -316px;
+        
+    }
+
+    &__img-name {
+        @include hero("Outfit", 400, 11px, 11px, #2f2f2f);
+        letter-spacing: 0.48px;
+    }
+
+    &__img-supname {
+        @include hero("Outfit", 400, 9px, 11px, #2f2f2f);
+        letter-spacing: 0.48px;
+    }
+
+    &__box-title {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5px;
+        margin-top: 4px;
+        
+    }
+
+    &__box-avatar {
+        margin-left: 8px;
+        margin-top: 5px;
+    }
+    
+    &__img-box-wom {
+        width: 159px;
+        height: 55px;
+        background: rgba(255, 255, 255, 0.85);
+        box-shadow: 0px -4px 19px rgba(0, 0, 0, 0.03);
+        border-radius: 30px;
+        display: flex;
+        margin-left: 55%;
+        margin-top: 390px;
+    }
+
+    &__img-name-wom {
+        @include hero("Outfit", 400, 16px, 16px, #2f2f2f);
+        letter-spacing: 0.48px;
+    }
+
+    &__img-supname-wom {
+        @include hero("Outfit", 400, 11px, 13px, #2f2f2f);
+        letter-spacing: 0.48px;
+    }
+
+    &__box-title-wom {
+        display: flex;
+        flex-direction: column;
+        margin-top: 11px;
+        margin-left: 12px;
+    }
+
+    
+}

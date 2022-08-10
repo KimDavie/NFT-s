@@ -1,1 +1,709 @@
-/*# sourceMappingURL=index.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@1,300&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed&display=swap");
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 17px;
+}
+.header__link {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  color: #222222;
+  letter-spacing: 0.48px;
+  margin-left: 48px;
+  margin-top: 0;
+  transition: 0.5s;
+}
+.header__link:hover {
+  color: #1520a6;
+}
+.header__box {
+  width: 1240px;
+  height: 68px;
+  background: #FFFFFF;
+  box-shadow: 0px -4px 19px rgba(0, 0, 0, 0.03);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.header__content {
+  width: 1200px;
+  height: 68px;
+}
+.header__logo {
+  margin-left: 29px;
+}
+.header__box-right {
+  margin-left: 464px;
+}
+.header__box-img {
+  margin-left: 25px;
+}
+.header__btn {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 14px;
+  color: #ffffff;
+  text-align: center;
+  width: 144px;
+  height: 40px;
+  background: #2F2F2F;
+  border-radius: 20px;
+  margin-left: 54px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.header__btn:hover {
+  background: #FF7F96;
+}
+
+.hero {
+  position: relative;
+  margin: 0 auto;
+}
+.hero__extraordinary {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 14px;
+  color: #82CBAC;
+}
+.hero__title {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 64px;
+  color: #2f2f2f;
+  margin-top: 1px;
+  transition: 0.6s;
+  cursor: pointer;
+}
+.hero__title:hover {
+  color: #82CBAC;
+}
+.hero__description {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  color: #2f2f2f;
+  margin-top: 25px;
+}
+.hero__txt {
+  margin-left: 207px;
+  margin-top: 326px;
+}
+.hero__img-yellow {
+  position: absolute;
+  left: 60%;
+  top: 0px;
+  z-index: -1;
+}
+.hero__img-pink {
+  position: absolute;
+  left: 51%;
+  top: -105px;
+  z-index: -2;
+  transition: 0.5s;
+}
+.hero__img-box {
+  width: 105px;
+  height: 33px;
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0px -4px 19px rgba(0, 0, 0, 0.03);
+  border-radius: 30px;
+  display: flex;
+  margin-left: 49%;
+  margin-top: -316px;
+}
+.hero__img-name {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 11px;
+  color: #2f2f2f;
+  letter-spacing: 0.48px;
+}
+.hero__img-supname {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 11px;
+  color: #2f2f2f;
+  letter-spacing: 0.48px;
+}
+.hero__box-title {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  margin-top: 4px;
+}
+.hero__box-avatar {
+  margin-left: 8px;
+  margin-top: 5px;
+}
+.hero__img-box-wom {
+  width: 159px;
+  height: 55px;
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0px -4px 19px rgba(0, 0, 0, 0.03);
+  border-radius: 30px;
+  display: flex;
+  margin-left: 55%;
+  margin-top: 390px;
+}
+.hero__img-name-wom {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #2f2f2f;
+  letter-spacing: 0.48px;
+}
+.hero__img-supname-wom {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  color: #2f2f2f;
+  letter-spacing: 0.48px;
+}
+.hero__box-title-wom {
+  display: flex;
+  flex-direction: column;
+  margin-top: 11px;
+  margin-left: 12px;
+}
+
+.line__img {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.browse__title {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 63px;
+  line-height: 64px;
+  color: #2f2f2f;
+  margin-top: 100px;
+  text-align: center;
+}
+.browse__box-img {
+  margin-top: 73px;
+}
+.browse__box-frame {
+  width: 358px;
+  height: 92px;
+  background: #FFFFFF;
+  border-radius: 0px 0px 30px 30px;
+  margin-top: 29px;
+}
+.browse__box-title {
+  font-family: "Outfit";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 26px;
+  color: #2f2f2f;
+  letter-spacing: 0.48px;
+  margin-left: 50px;
+}
+.browse__boxes {
+  display: flex;
+  justify-content: center;
+}
+.browse__box {
+  margin-left: 63px;
+}
+.browse__btn {
+  font-family: "Outfit";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  width: 134px;
+  height: 44px;
+  background: #2F2F2F;
+  border-radius: 0px;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-left: 47%;
+  margin-top: 64px;
+}
+.browse__btn:hover {
+  background: #be2ed6;
+}
+
+.nft__title {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 64px;
+  color: #2f2f2f;
+  text-align: center;
+  letter-spacing: 0.48px;
+  margin-top: 95px;
+}
+.nft__box-name {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #2f2f2f;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.nft__box-nmbr {
+  font-family: "Outfit";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  color: #2f2f2f;
+  margin-left: 8px;
+  margin-top: 10px;
+}
+.nft__box-eye-frame {
+  width: 38px;
+  height: 38px;
+  background: rgba(168, 193, 216, 0.2);
+  transition: 0.4s;
+  border-radius: 4px;
+}
+.nft__box-eye-frame:hover {
+  background: #e8bcf0;
+}
+.nft__box-lock-frame {
+  width: 38px;
+  height: 38px;
+  background: #FF7F96;
+  border-radius: 30px;
+  margin-left: 8px;
+  transition: 0.4s;
+}
+.nft__box-lock-frame:hover {
+  background: #e3242b;
+}
+.nft__box-icons {
+  display: flex;
+  margin-left: 22px;
+}
+.nft__box-txt {
+  width: 332px;
+  height: 80px;
+  background: #FFFFFF;
+  box-shadow: 0px -4px 19px rgba(0, 0, 0, 0.03);
+  border-radius: 30px;
+  display: flex;
+  margin-top: 27px;
+}
+.nft__box-icon-lock {
+  margin-left: 13px;
+  display: flex;
+  align-items: center;
+  margin-top: 9px;
+}
+.nft__box-icon-eye {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+}
+.nft__boxes {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.nft__box {
+  margin-left: 38px;
+}
+.nft__btn {
+  font-family: "Outfit";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  letter-spacing: 0.48px;
+  width: 134px;
+  height: 44px;
+  background: #2F2F2F;
+  border-radius: 0px;
+  text-align: center;
+  margin-left: 47%;
+  transition: 0.4s;
+}
+.nft__btn:hover {
+  background: #ffd801;
+  color: #2F2F2F;
+}
+
+.people__title {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 64px;
+  color: #2f2f2f;
+  letter-spacing: 0.48px;
+}
+.people__description {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  color: #2f2f2f;
+  letter-spacing: 0.48px;
+  margin-top: 25px;
+}
+.people__header {
+  text-align: center;
+  margin-top: 217px;
+}
+.people__btn {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 22px;
+  color: #2f2f2f;
+  width: 179px;
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid #2f2f2f;
+  border-radius: 30px;
+  margin-left: 8px;
+  cursor: pointer;
+  transition: ease-out 0.4s;
+}
+.people__buttons {
+  margin-left: 168px;
+  margin-top: 72px;
+}
+.people__btn:hover {
+  background: #2f2f2f;
+  color: #ffffff;
+}
+.people__info-prof {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ff7f96;
+}
+.people__info-title {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  color: #2f2f2f;
+  margin-top: 14px;
+}
+.people__info-description {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #2f2f2f;
+  width: 477px;
+  margin-top: 21px;
+}
+.people__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 64px;
+}
+.people__info-txt {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+.swiper__wrapper {
+  margin-top: 221px;
+  display: flex;
+}
+.swiper__img {
+  float: left;
+}
+
+.work__header-title {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 36px;
+  color: #2f2f2f;
+  text-transform: uppercase;
+  letter-spacing: 0.48px;
+}
+.work__header-suptitle {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  color: #2f2f2f;
+  width: 486px;
+  margin-top: 7px;
+}
+.work__header-description {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #2f2f2f;
+  letter-spacing: 0.48px;
+  width: 545px;
+  margin-top: 38px;
+}
+.work__header-btn {
+  font-family: "Outfit";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 16px;
+  color: #ffffff;
+  letter-spacing: 0.48px;
+  width: 166px;
+  height: 44px;
+  background: #2F2F2F;
+  border-radius: 0px;
+  margin-top: 44px;
+  float: right;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.work__header-btn:hover {
+  background: #0492c2;
+}
+.work__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 146px;
+}
+.work__header-txt {
+  margin-left: 63px;
+}
+.work__footer-number {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  letter-spacing: 0.48px;
+}
+.work__footer-numbers {
+  width: 57px;
+  height: 35px;
+  background: #82CBAC;
+  border-radius: 30px;
+  text-align: center;
+}
+.work__footer-title {
+  font-family: "Outfit";
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 36px;
+  color: #2f2f2f;
+  letter-spacing: 0.48px;
+  margin-top: 5px;
+}
+.work__footer-description {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #2f2f2f;
+  letter-spacing: 0.48px;
+  width: 431px;
+  margin-top: 13px;
+}
+.work__footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 84px;
+}
+.work__footer-txt {
+  display: flex;
+  flex-direction: column;
+  margin-right: 153px;
+  margin-top: 75px;
+}
+.work__footer-numbers-2 {
+  width: 57px;
+  height: 35px;
+  background: #FF7F96;
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 32px;
+}
+.work__footer-numbers-3 {
+  width: 57px;
+  height: 35px;
+  background: #EAD71B;
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 38px;
+}
+
+.container {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.ul, li, a {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.h1, h2, h3, h4, h5, h6, p, span {
+  margin: 0;
+  padding: 0;
+}
+
+.faq__title {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 64px;
+  color: #2f2f2f;
+  margin-top: 55px;
+  margin-left: 22%;
+}
+.faq__description {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+  color: #2f2f2f;
+  letter-spacing: 0.48px;
+  margin-left: 22%;
+  margin-top: 73px;
+}
+.faq__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__description {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #2f2f2f;
+}
+.footer__icon {
+  margin-right: 23px;
+  cursor: pointer;
+}
+.footer__info-title {
+  margin-top: 40px;
+}
+.footer__icons {
+  margin-top: 20px;
+}
+.footer__nav-title {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #2f2f2f;
+  margin-bottom: 17px;
+}
+.footer__nav-description {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  color: #2f2f2f;
+  margin-top: 8px;
+}
+.footer__nav {
+  display: flex;
+  flex-direction: column;
+  margin-left: 137px;
+}
+.footer__reminder-title {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 29px;
+  color: #2f2f2f;
+}
+.footer__reminder-description {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #2f2f2f;
+  width: 431px;
+  margin-top: 16px;
+}
+.footer__input {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #2f2f2f;
+  width: 327px;
+  height: 40px;
+  background: #F6F6F6;
+  border-radius: 20px;
+  padding-left: 32px;
+  margin-top: 16px;
+  border: none;
+}
+.footer__reminder {
+  display: flex;
+  flex-direction: column;
+  margin-left: 109px;
+}
+.footer__info {
+  margin-top: 100px;
+  display: flex;
+  margin-left: 22%;
+}
+.footer__btn {
+  font-family: "Outfit";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 16px;
+  color: #ffffff;
+  width: 79px;
+  height: 40px;
+  background: #2F2F2F;
+  border-radius: 20px;
+  margin-left: 8px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.footer__btn:hover {
+  background: #7600bc;
+}
+.footer__footer-title {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #2f2f2f;
+  letter-spacing: 0.48px;
+}
+.footer__footer-suptitle {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  color: #2f2f2f;
+  letter-spacing: 0.48px;
+}
+.footer__footer-txt {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 127px;
+  margin-left: 184px;
+  margin-right: 184px;
+  margin-bottom: 47px;
+}/*# sourceMappingURL=index.css.map */

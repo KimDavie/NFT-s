@@ -1,0 +1,67 @@
+.people {
+    &__title {
+        @include people("Outfit", 400, 64px, 64px, #2f2f2f);
+        letter-spacing: 0.48px;
+    }
+
+    &__description {
+        @include people("Outfit", 400, 17px, 26px, #2f2f2f);
+        letter-spacing: 0.48px;
+        margin-top: 25px;
+    }
+
+    &__header {
+        text-align: center;
+        margin-top: 217px;
+    }
+
+    &__btn {
+        @include people("Outfit", 400, 22px, 22px, #2f2f2f);
+        width: 179px;
+        height: 50px;
+        background: #ffffff;
+        border: 1px solid #2f2f2f;
+        border-radius: 30px;
+        margin-left: 8px;
+        cursor: pointer;
+        transition: ease-out 0.4s;
+    }
+
+    &__buttons {
+        margin-left: 168px;
+        margin-top: 72px;
+    }
+
+    &__btn:hover {
+        background: #2f2f2f;
+        color: #ffffff;
+    }
+
+    &__info-prof {
+        @include people("Outfit", 400, 16px, 18px, #ff7f96);
+
+    }
+    &__info-title {
+        @include people("Outfit", 400, 36px, 36px, #2f2f2f);
+        margin-top: 14px;
+    }
+
+    &__info-description {
+        @include people("Outfit", 400, 20px, 26px, #2f2f2f);
+        width: 477px;
+        margin-top: 21px;
+    }
+
+    &__info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 64px;
+    }
+
+    &__info-txt {
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+    }
+}

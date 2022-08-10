@@ -1,0 +1,102 @@
+.footer {
+    &__description {
+        @include footer("Outfit", 400, 20px, 20px, #2f2f2f);
+    }
+
+
+    &__icon {
+        margin-right: 23px;
+        cursor: pointer;
+    }
+
+    &__info-title {
+        margin-top: 40px;
+    }
+
+    &__icons {
+        margin-top: 20px;
+    }
+
+    &__nav-title {
+        @include footer("Outfit", 400, 20px, 20px, #2f2f2f);
+        margin-bottom: 17px;
+    }
+
+    &__nav-description {
+        @include footer("Outfit", 400, 15px, 16px, #2f2f2f);
+        margin-top: 8px;
+    }
+
+    &__nav {
+        display: flex;
+        flex-direction: column;
+        margin-left: 137px;
+    }
+
+    &__reminder-title {
+        @include footer("Outfit", 400, 35px, 29px, #2f2f2f);
+
+    }
+
+    &__reminder-description {
+        @include footer("Outfit", 400, 18px, 26px, #2f2f2f);
+        width: 431px;
+        margin-top: 16px;
+    }
+
+    &__input {
+        @include footer("Outfit", 400, 14px, 16px, #2f2f2f);
+        width: 327px;
+        height: 40px;
+        background: #F6F6F6;
+        border-radius: 20px;
+        padding-left: 32px;
+        margin-top: 16px;
+        border: none;
+    }
+
+    &__reminder {
+        display: flex;
+        flex-direction: column;
+        margin-left: 109px;
+    }
+
+    &__info {
+        margin-top: 100px;
+        display: flex;
+        margin-left: 22%;
+    }
+
+    &__btn {
+        @include footer("Outfit", 700, 15px, 16px, #ffffff);
+        width: 79px;
+        height: 40px;
+        background: #2F2F2F;
+        border-radius: 20px;
+        margin-left: 8px;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+
+    &__btn:hover {
+        background: #7600bc;
+    }
+
+    &__footer-title {
+        @include footer("Outfit", 400, 14px, 16px, #2f2f2f);
+        letter-spacing: 0.48px;
+    }
+    &__footer-suptitle {
+        @include footer("Outfit", 400, 15px, 16px, #2f2f2f);
+        letter-spacing: 0.48px;
+    }
+
+    &__footer-txt {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 127px;
+        margin-left: 184px;
+        margin-right: 184px;
+        margin-bottom: 47px;
+    }
+}
