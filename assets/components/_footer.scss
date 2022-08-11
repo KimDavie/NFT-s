@@ -25,6 +25,11 @@
     &__nav-description {
         @include footer("Outfit", 400, 15px, 16px, #2f2f2f);
         margin-top: 8px;
+        transition: 0.2s;
+    }
+
+    &__nav-description:hover {
+        color: #7600bc;
     }
 
     &__nav {
@@ -75,7 +80,7 @@
         border-radius: 20px;
         margin-left: 8px;
         cursor: pointer;
-        transition: 0.4s;
+        transition: 0.3s;
     }
 
     &__btn:hover {
@@ -99,4 +104,6 @@
         margin-right: 184px;
         margin-bottom: 47px;
     }
+
+    
 }

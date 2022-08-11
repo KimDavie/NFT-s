@@ -54,7 +54,7 @@
   border-radius: 20px;
   margin-left: 54px;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 .header__btn:hover {
   background: #FF7F96;
@@ -230,7 +230,7 @@
   background: #2F2F2F;
   border-radius: 0px;
   cursor: pointer;
-  transition: 0.4s;
+  transition: 0.2s;
   margin-left: 47%;
   margin-top: 64px;
 }
@@ -333,7 +333,7 @@
   border-radius: 0px;
   text-align: center;
   margin-left: 47%;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 .nft__btn:hover {
   background: #ffd801;
@@ -374,7 +374,7 @@
   border-radius: 30px;
   margin-left: 8px;
   cursor: pointer;
-  transition: ease-out 0.4s;
+  transition: ease-out 0.2s;
 }
 .people__buttons {
   margin-left: 168px;
@@ -620,6 +620,10 @@
   line-height: 16px;
   color: #2f2f2f;
   margin-top: 8px;
+  transition: 0.2s;
+}
+.footer__nav-description:hover {
+  color: #7600bc;
 }
 .footer__nav {
   display: flex;
@@ -678,7 +682,7 @@
   border-radius: 20px;
   margin-left: 8px;
   cursor: pointer;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 .footer__btn:hover {
   background: #7600bc;
@@ -706,4 +710,257 @@
   margin-left: 184px;
   margin-right: 184px;
   margin-bottom: 47px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__box {
+    max-width: 1024px;
+    margin-left: 20%;
+  }
+  .header__box-img {
+    display: none;
+  }
+  .header__btn {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  .header__link {
+    margin-left: 38px;
+  }
+  .hero__img-yellow {
+    left: 85%;
+  }
+  .hero__img-pink {
+    left: 68%;
+  }
+  .hero__img-box {
+    margin-left: 62%;
+  }
+  .hero__img-box-wom {
+    margin-left: 77%;
+  }
+  .work__content {
+    margin-left: 43%;
+  }
+  .people__header {
+    margin-left: 35%;
+  }
+  .line__image {
+    margin-left: 35%;
+  }
+  .browse__title {
+    margin-left: 32%;
+  }
+  .browse__boxes {
+    margin-left: 25%;
+  }
+  .browse__btn {
+    margin-left: 60%;
+  }
+  .nft__content {
+    margin-left: 30%;
+  }
+  .nft__title {
+    margin-left: 2%;
+  }
+  .footer__icon {
+    margin-right: 10px;
+  }
+  .footer__btn {
+    font-size: 10px;
+    width: 55px;
+  }
+  .footer__footer-txt {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 820px) {
+  .header__box {
+    max-width: 1024px;
+    margin-left: 25%;
+    margin-right: 10px;
+  }
+  .header__box-img {
+    display: none;
+  }
+  .header__btn {
+    margin-left: 0;
+  }
+  .header__link {
+    margin-left: 38px;
+  }
+  .hero__img-yellow {
+    left: 100%;
+  }
+  .hero__img-pink {
+    left: 79%;
+  }
+  .hero__img-box {
+    margin-left: 72%;
+  }
+  .hero__img-box-wom {
+    margin-left: 87%;
+  }
+  .work__content {
+    margin-left: 65%;
+  }
+  .people__header {
+    margin-left: 55%;
+  }
+  .people__title {
+    font-size: 40px;
+    margin-left: 35px;
+  }
+  .people__description {
+    width: 400px;
+  }
+  .people__info {
+    margin-left: 10%;
+  }
+  .line__image {
+    margin-left: 62%;
+    margin-top: 141px;
+  }
+  .browse__title {
+    margin-left: 62%;
+  }
+  .browse__boxes {
+    margin-left: 54%;
+  }
+  .browse__btn {
+    margin-left: 72%;
+  }
+  .nft__content {
+    margin-left: 60%;
+  }
+  .nft__title {
+    margin-left: 2%;
+  }
+  .footer__icon {
+    margin-right: 10px;
+  }
+  .footer__btn {
+    font-size: 10px;
+    width: 55px;
+  }
+  .footer__footer-txt {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 390px) {
+  .header__box {
+    max-width: 1024px;
+    margin-left: 35%;
+    margin-right: 10px;
+  }
+  .header__box-img {
+    display: none;
+  }
+  .header__btn {
+    margin-left: 0;
+  }
+  .header__link {
+    margin-left: 38px;
+  }
+  .hero__txt {
+    margin-left: 20%;
+  }
+  .hero__title {
+    font-size: 30px;
+    line-height: 30px;
+    width: 200px;
+  }
+  .hero__extraordinary {
+    font-size: 10px;
+  }
+  .hero__description {
+    font-size: 15px;
+    width: 350px;
+  }
+  .hero__img-yellow {
+    left: 160%;
+  }
+  .hero__img-pink {
+    left: 115%;
+  }
+  .hero__img-box {
+    margin-left: 100%;
+  }
+  .hero__img-box-wom {
+    margin-left: 140%;
+  }
+  .work__content {
+    margin-left: 150%;
+  }
+  .work__header-txt {
+    margin-left: 30px;
+  }
+  .work__footer-txt {
+    margin-right: 50px;
+  }
+  .work__header-img {
+    display: none;
+  }
+  .people__header {
+    margin-left: 65%;
+  }
+  .people__title {
+    font-size: 40px;
+    margin-left: 35px;
+    width: 500px;
+  }
+  .people__description {
+    width: 400px;
+    margin-left: 60%;
+  }
+  .people__btn {
+    font-size: 20px;
+    width: 100px;
+  }
+  .people__buttons {
+    display: flex;
+    margin-left: 20px;
+  }
+  .people__info {
+    margin-left: 110%;
+  }
+  .line__image {
+    margin-left: 270%;
+    margin-top: 141px;
+  }
+  .browse__title {
+    margin-left: 62%;
+    display: none;
+  }
+  .browse__boxes {
+    margin-left: 54%;
+    display: none;
+  }
+  .browse__btn {
+    margin-left: 72%;
+    display: none;
+  }
+  .nft__content {
+    margin-left: 142%;
+  }
+  .nft__title {
+    margin-left: 0%;
+  }
+  .footer__icon {
+    margin-right: 10px;
+  }
+  .footer__btn {
+    font-size: 10px;
+    width: 55px;
+  }
+  .footer__footer-txt {
+    margin-right: 0;
+    display: none;
+  }
+  .footer__nav {
+    margin-left: 100px;
+  }
+  .footer__content {
+    margin-bottom: 50px;
+  }
 }/*# sourceMappingURL=index.css.map */

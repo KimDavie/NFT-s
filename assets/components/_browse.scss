@@ -26,6 +26,7 @@
     &__boxes {
         display: flex;
         justify-content: center;
+        
     }
 
     &__box {
@@ -39,7 +40,7 @@
         background: #2F2F2F;
         border-radius: 0px;
         cursor: pointer;
-        transition: 0.4s;
+        transition: 0.2s;
         margin-left: 47%;
         margin-top: 64px;
     }
