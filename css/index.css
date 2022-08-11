@@ -582,6 +582,11 @@
   letter-spacing: 0.48px;
   margin-left: 22%;
   margin-top: 73px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.faq__description:hover {
+  color: #2832c2;
 }
 .faq__content {
   display: flex;
@@ -962,5 +967,9 @@
   }
   .footer__content {
     margin-bottom: 50px;
+  }
+  .faq__description {
+    width: 400px;
+    font-size: 20px;
   }
 }/*# sourceMappingURL=index.css.map */

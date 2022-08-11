@@ -11,6 +11,12 @@
         letter-spacing: 0.48px;
         margin-left: 22%;
         margin-top: 73px;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+    &__description:hover {
+        color: #2832c2;
     }
 
     &__content {
